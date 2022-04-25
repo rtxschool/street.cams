@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.rtxschool.zombies.FirstFragment"
+        android:label="@string/txt_frag_log"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/from_log_to_movies"
+            app:destination="@id/first2Fragment" />
+        <action
+            android:id="@+id/from_prim_to_stat"
+            app:destination="@id/first6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/first2Fragment"
+        android:name="com.rtxschool.zombies.First2Fragment"
+        android:label="@string/txt_frag_movies"
+        tools:layout="@layout/fragment_first2">
+        <action
+            android:id="@+id/from_movies_to_summary"
+            app:destination="@id/first4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/first4Fragment"
+        android:name="com.rtxschool.zombies.First4Fragment"
+        android:label="@string/txt_frag_summary"
+        tools:layout="@layout/fragment_first4" />
+    <fragment
+        android:id="@+id/first6Fragment"
+        android:name="com.rtxschool.zombies.First6Fragment"
+        android:label="@string/txt_frag_stat"
+        tools:layout="@layout/fragment_first6">
+        <action
+            android:id="@+id/from_stat_to_career"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.rtxschool.zombies.SecondFragment"
+        android:label="@string/txt_frag_prof"
+        tools:layout="@layout/fragment_second" />
+</navigation>

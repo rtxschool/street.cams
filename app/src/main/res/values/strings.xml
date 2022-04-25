@@ -1,0 +1,97 @@
+<resources>
+<string name="app_name">Zombie Movies
+    </string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="txt_frag_log">
+        Main Screen
+    </string>
+    <string name="txt_frag_movies">
+        Movies
+    </string>
+    <string name="txt_frag_summary">
+        Summary
+    </string>
+    <string name = "txt_frag_stat"
+        >
+       Self Stats
+    </string>
+    <string name = "txt_frag_prof"
+        >
+        Proficiencies
+    </string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="str_each">
+        Each
+    </string>
+    <string name="str_box">
+        box
+    </string>
+    <string name="str_is">
+        is
+    </string>
+    <string name="str_unique">
+        unique
+    </string>
+    <string name="str_log">
+        Log On
+    </string>
+    <string name="str_your">
+        Your User
+    </string>
+    <string name="topic">
+        Application Development 340
+    </string>
+    <string name="sub_topic">
+        Core Utility
+    </string>
+    <string name="zomb_movies">
+        Zombie Movies
+    </string>
+    <string name="z">
+        Zombie
+    </string>
+    <string name="Movie">
+        Movie
+    </string>
+    <string name="Managed_by">
+        Managed By
+    </string>
+    <string name="Published">
+        Published
+    </string>
+    <string name="Summary">
+        Summary
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_movies">movies</string>
+    <string name="title_activity_z">z</string>
+
+
+    <string name="title_activity_movie_summary">movie_summary</string>
+    <string name="title_activity_movey_summary">moveySummary</string>
+    <string name="title_activity_summary">summary</string>
+    <string name="stxt_cmd_tsk2">
+        Assignment 2 | UI
+    </string>
+    <string name="stxt_cmd_tsk3">
+        Assignment 3 | Fragments, etc
+    </string>
+    <string name="stxt_cmd_tsk1">
+        Assignment 1 | Self Stats
+    </string>
+
+    <string name="scmd_self_stat">
+        Self Stats
+    </string>
+    <string name="title_activity_self_stat">selfStat</string>
+    <string name="title_activity_r">r</string>
+</resources>
